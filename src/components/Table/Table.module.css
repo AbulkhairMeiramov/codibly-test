@@ -1,0 +1,25 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.tableMain {
+  width: 1000px;
+}
+
+.tableMain__header {
+  background-color: #c0c0c0;
+}
+
+.tableMain__header th {
+  padding: 8px;
+}
+
+.tableMain__content td {
+  padding: 8px;
+}
+
+.tableMain__row:hover {
+  background-color: #d3d3d3;
+  cursor: pointer;
+}
